@@ -97,6 +97,6 @@ user_end = psutil.cpu_times().user
 system_end = psutil.cpu_times().system
 
 print('------------------------------------------------------') 
-print('Total Time: {:.4f} seconds'.format(end-start))
+print('Real Time: {:.4f} seconds'.format(end-start))
 print('User Time: {:.4f} seconds'.format(user_end-user_start))
 print('System Time: {:.4f} seconds'.format(system_end-system_start))
